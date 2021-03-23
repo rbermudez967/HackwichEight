@@ -26,6 +26,10 @@ class ViewController: UIViewController {
         
         //call the function
         startNewRound()
+        
+        //set image to slider
+        let thumbImageNormal = UIImage(named: "SliderThumb-Normal")
+        slider.setThumbImage(thumbImageNormal, for: .normal)
     }
     
     @IBAction func sliderHasMoved(_ sender: Any) {
