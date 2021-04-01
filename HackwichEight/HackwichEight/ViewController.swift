@@ -56,7 +56,7 @@ class ViewController: UIViewController {
     }
     // where we update the contents of the alert pop up
     func updateTargetLabel (){
-       
+       targetLabel.text = String(targetValue)
         
     }
     
